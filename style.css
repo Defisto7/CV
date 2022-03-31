@@ -2,7 +2,7 @@ body {
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 10px;
+  font-size: 16px;
   line-height: 150%;
   color: #485268;
   background-color: #E5E5E5;
@@ -13,38 +13,41 @@ strong {
 /* #region about */
 .about {
   display: flex;
+  justify-content: center;;
+  flex-wrap: wrap;
   padding-top: 32px;
-  padding-left: 40px;
-  padding-right: 40px;
+  padding-left: 60px;
+  padding-right: 60px;
   padding-bottom: 24px;
   background-color: #E25544;
   color: white;
 }
 .about__photo {
-  width: 114px;
-  height: 114px;
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
-  margin-left: 50px;
+  margin-left: 20px;
   object-fit: cover;
 }
 .about__name {
-  margin: 0 0 8px 0;
+  margin: 15px 0 20px 0;
   font-weight: 600;
-  font-size: 30px;
-  line-height: 37px;
+  font-size: 38px;
+  line-height: 60px;
 }
 .about__role {
   margin: 0 0 8px 0;
-  font-size: 12px;
-  line-height: 15px;
+  font-size: 22px;
+  line-height: 30px;
 }
 .about__text {
-  margin: 0;
+  margin-top: 25px;
+  width: 100%;
 }
 /* #endregion */
 
 .page {
-   width: 595px;
+   width: 795px;
    margin: 0 auto;
 }
 
@@ -54,14 +57,27 @@ strong {
 }
 /* #region contacs */
 .contacs{
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr 0.5fr;
+  grid-row-gap: 25px;
+  font-size: 14px;
   justify-content: space-between;
-  padding: 24px 0;
+  padding: 30px 20px;
 }
+
 .contacs__link{
   color: #485268;
   text-decoration: none;
+  position: relative;
 }
+
+.icons{
+  padding-right: 5px;
+  width: 16px;
+  height: 16px;
+}
+
+
 /* #endregion */
 
 /* #region info */
@@ -75,13 +91,13 @@ strong {
 .info__title {
   margin: 0;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 24px;
   line-height: 100%;
   color: #E25544;
 }
 
 .info__content {
-  width: 360px;
+  width: 500px;
 }
 /* #endregion */
 
@@ -97,14 +113,15 @@ strong {
 .job__title {
   margin: 0;
   font-weight: 500;
-  font-size: 12px;
-  line-height: 15px;
+  font-size: 18px;
+  line-height: 25px;
   text-transform: capitalize;
 }
 .job__description {
   margin: 0;
-  margin-top: 8px;
+  padding: 20px;
 }
+
 /* #endregion */
 
 /* #region study */
@@ -119,8 +136,8 @@ strong {
 .study__title {
   margin: 0;
   font-weight: 500;
-  font-size: 12px;
-  line-height: 15px;
+  font-size: 18px;
+  line-height: 25px;
   text-transform: capitalize;
 }
 .study__description {
@@ -130,8 +147,22 @@ strong {
 /* #endregion */
 
 /* #region skills */
+
 .skills {
-  display: flex;
+  border-left: 1px dashed #DEE2ED;
+  padding-left: 8px;
+  margin-top: 24px;
+}
+.skills:first-child {
+  margin-top: 0;
+}
+
+.skills__title{
+  margin: 0;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: capitalize;
 }
 .skills__list {
   box-sizing: border-box;
