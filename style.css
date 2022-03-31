@@ -198,4 +198,18 @@ strong {
 .tools__item:first-child {
   margin-top: 0;
 }
-/* #endregion */
+
+.project {
+  border-left: 1px dashed #DEE2ED;
+  padding-left: 8px;
+  margin-top: 24px;
+}
+.project:first-child {
+  margin-top: 0;
+}
+
+.project__link{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 130px 0 90px
+}
