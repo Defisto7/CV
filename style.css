@@ -18,7 +18,7 @@ strong {
   padding-top: 32px;
   padding-left: 60px;
   padding-right: 60px;
-  padding-bottom: 24px;
+  padding-bottom: 20px;
   background-color: #E25544;
   color: white;
 }
@@ -59,7 +59,7 @@ strong {
 .contacs{
   display: grid;
   grid-template-columns: 1fr 1fr 0.5fr;
-  grid-row-gap: 25px;
+  grid-row-gap: 20px;
   font-size: 14px;
   justify-content: space-between;
   padding: 30px 20px;
@@ -83,7 +83,7 @@ strong {
 /* #region info */
 .info {
   border-top: 1px solid #DEE2ED;
-  padding: 24px 0;
+  padding: 20px 0;
   display: flex;
   justify-content: space-between;
 }
@@ -98,6 +98,10 @@ strong {
 
 .info__content {
   width: 500px;
+}
+
+.experience{
+  max-height: 100px;
 }
 /* #endregion */
 
