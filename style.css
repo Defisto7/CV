@@ -47,7 +47,7 @@ strong {
 /* #endregion */
 
 .page {
-   width: 795px;
+   width: 995px;
    margin: 0 auto;
 }
 
@@ -89,15 +89,15 @@ strong {
 }
 
 .info__title {
-  margin: 0;
+  margin: 10px;
   font-weight: 500;
-  font-size: 24px;
+  font-size: 26px;
   line-height: 100%;
   color:  #090c38;
 }
 
 .info__content {
-  width: 500px;
+  width: 600px;
 }
 
 .experience{
