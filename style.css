@@ -1,11 +1,13 @@
 body {
+  width: 100%;
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 150%;
-  color: #485268;
+  color: #000000;
   background-color: #E5E5E5;
+  box-sizing:border-box
 }
 strong {
   font-weight: 500;
@@ -13,14 +15,9 @@ strong {
 /* #region about */
 .about {
   display: flex;
-  justify-content: center;;
-  flex-wrap: wrap;
-  padding-top: 32px;
-  padding-left: 60px;
-  padding-right: 60px;
-  padding-bottom: 20px;
-  background-color: #090c38;
-  color: white;
+  justify-content: space-between;;
+  padding: 30px;
+  background-color: #a7a7a7;
 }
 .about__photo {
   width: 150px;
@@ -28,26 +25,27 @@ strong {
   border-radius: 50%;
   margin-left: 20px;
   object-fit: cover;
+  border: rgb(84, 84, 84) 2px solid;
 }
 .about__name {
-  margin: 15px 0 20px 0;
-  font-weight: 600;
-  font-size: 38px;
-  line-height: 60px;
-}
-.about__role {
-  margin: 0 0 8px 0;
-  font-size: 22px;
+  margin: 0;
+  text-align: center;
+  font-weight: 400;
+  font-size: 24px;
   line-height: 30px;
 }
+.about__role {
+  text-align: center;
+  font-size: 18px;
+}
 .about__text {
-  margin-top: 25px;
+  margin-top: 5px;
   width: 100%;
 }
 /* #endregion */
 
 .page {
-   width: 995px;
+   width: 1000px;
    margin: 0 auto;
 }
 
@@ -58,11 +56,11 @@ strong {
 /* #region contacs */
 .contacs{
   display: grid;
-  grid-template-columns: 1fr 1fr 0.5fr;
+  grid-template-columns: 1fr 1fr 0.7fr 0.5fr;
   grid-row-gap: 20px;
   font-size: 14px;
   justify-content: space-between;
-  padding: 30px 20px;
+  padding: 20px 5px;
 }
 
 .contacs__link{
@@ -91,13 +89,13 @@ strong {
 .info__title {
   margin: 10px;
   font-weight: 500;
-  font-size: 26px;
+  font-size: 22px;
   line-height: 100%;
   color:  #090c38;
 }
 
 .info__content {
-  width: 600px;
+  width: 750px;
 }
 
 .experience{
@@ -204,6 +202,8 @@ strong {
 }
 
 .project {
+  display: flex;
+  justify-content: space-between;
   border-left: 1px dashed #DEE2ED;
   padding-left: 8px;
   margin-top: 24px;
@@ -213,9 +213,7 @@ strong {
 }
 
 .project__link{
-  display: flex;
-  justify-content: center;
-  margin: 0 auto;
+  margin: 0 10px;
   text-decoration: none;
   color: black
 }
