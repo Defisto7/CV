@@ -200,20 +200,3 @@ strong {
 .tools__item:first-child {
   margin-top: 0;
 }
-
-.project {
-  display: flex;
-  justify-content: space-between;
-  border-left: 1px dashed #DEE2ED;
-  padding-left: 8px;
-  margin-top: 24px;
-}
-.project:first-child {
-  margin-top: 0;
-}
-
-.project__link{
-  margin: 0 10px;
-  text-decoration: none;
-  color: black
-}
